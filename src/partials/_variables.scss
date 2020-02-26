@@ -1,0 +1,11 @@
+$backgroundDark: #000;
+$textWhite: white;
+$bodyColor:#191717;
+$h2FontSize : 13px;
+$h3FontSize : 12px;
+$h3Color : grey;
+
+@mixin regoleFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
