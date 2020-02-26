@@ -1,6 +1,7 @@
-<?php include _DIR_ . '/../db.php';
+<?php
+  include  "db.php";
 
-header('Content-Type: application/json');
-echo json_encode($database);
+  header('Content-Type: application/json');
+  echo json_encode($database);
 
 ?>

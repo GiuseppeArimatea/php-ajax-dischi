@@ -8,6 +8,12 @@ $database = [
       'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
     ],
     [
+      'title' => 'Year Of The Gentleman',
+      'author' => 'Ne-Yo',
+      'year' => 2008,
+      'poster' => 'https://img.discogs.com/ko3OQ3ENyKrsdbpiU3kEPRGEH74=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-14826505-1582359304-8022.jpeg.jpg'
+    ],
+    [
       'title' => 'The wall',
       'author' => 'Pink Floyd',
       'year' => 1979,
@@ -30,12 +36,6 @@ $database = [
       'author' => 'U2',
       'year' => 1997,
       'poster' => 'https://img.discogs.com/zsExS0Pc5T0YXmbQLdTHt9UizuY=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-137130-1460131020-9490.jpeg.jpg'
-    ],
-    [
-      'title' => 'Year Of The Gentleman',
-      'author' => 'Ne-Yo',
-      'year' => 2008,
-      'poster' => 'https://img.discogs.com/ko3OQ3ENyKrsdbpiU3kEPRGEH74=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-14826505-1582359304-8022.jpeg.jpg'
     ],
 ];
 ?>

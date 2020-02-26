@@ -13,16 +13,22 @@
       <img src="https://gogomagazine.it/wp-content/uploads/2018/01/Spotify-logo.jpg" alt="">
     </div>
   </header>
+  <main>
+    <div class="boxs">
 
+    </div>
+  </main>
 
   <script id="entry-template" type="text/x-handlebars-template">
-    <div class="entry">
-      <h1>{{title}}</h1>
-      <div class="body">
-        {{body}}
-      </div>
-    </div>
-  </script>
+   <div class="box">
+     <ul>
+       <li> <img src={{poster}} alt=""> </li>
+       <li> <h3>{{title}}</h3>  </li>
+       <li class="author"> {{author}} </li>
+       <li> {{year}} </li>
+     </ul>
+   </div>
+ </script>
 
   <script src="dist/app.js" charset="utf-8"></script>
 </body>

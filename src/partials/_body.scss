@@ -42,3 +42,28 @@ h3 {
   color: $h3Color;
   font-size: $h3FontSize;
 }
+
+
+// jquery
+.boxs {
+  @include regoleFlex;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
+  .box {
+    flex-basis: calc((100% / 3) - 60px);
+    text-align: center;
+    margin: 15px 30px;
+    background-color: $backgroundDark;
+    color: $textWhite;
+    padding: 10px;
+    ul {
+      list-style: none;
+      img {
+        display: block;
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+}
