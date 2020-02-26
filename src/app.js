@@ -3,5 +3,20 @@ const Handlebars = require("handlebars");
 
 
 $(document).ready(function() {
-  // alert('ciao');
+  $.ajax(
+  {
+  url: "",
+  method: "GET",
+  data: {
+        
+      },
+  success: function (data) {
+    console.log(data);
+  }
+    },
+  error: function (richiesta, stato, errori) {
+    alert("E' avvenuto un errore. " + errori);
+    }
+  }
+);
 });
